@@ -49,7 +49,7 @@ def posting(name,videoID,categoria):
   post.mime_type = "text/html"
   post.post_status = 'publish'
   post.terms_names = {
-    'post_tag': [''+str(name)+'', 'svali.ga' , 'download' , 'mp3' , 'svali'] ,
+    'post_tag': [''+str(name)+'' , 'download' , 'mp3' ] ,
     'category': [''+categoria+'']
   }
   print('POSTING - '+name)
