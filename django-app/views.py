@@ -1,5 +1,3 @@
-#from django.shortcuts import redirect 
-#import pafy 
 from django.shortcuts import redirect
 from pytube import YouTube
 def out(request,videoID):
