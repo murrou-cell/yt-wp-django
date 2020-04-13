@@ -45,7 +45,7 @@ def posting(name,videoID,categoria):
   downloadlink = 'http://DJANGOSERVER/out/' + str(videoID)
   post = WordPressPost()
   post.title = ''+str(name)+''
-  post.content = '<p>'+str(name)+'<p><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/'+ str(videoID) +'"></iframe></p><p><a href="'+downloadlink+'"><img src="http://svali.ga/wp-content/uploads/2020/04/toppng.com-images-buttons-download-red-download-button-5319x1572-1.png"></a></p>'
+  post.content = '<p>'+str(name)+'<p><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/'+ str(videoID) +'"></iframe></p><p><a href="'+downloadlink+'"><img src="LINK TO IMAGE FOR DOWNLOAD BUTTON"></a></p>'
   post.mime_type = "text/html"
   post.post_status = 'publish'
   post.terms_names = {
